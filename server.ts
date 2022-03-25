@@ -23,9 +23,9 @@ import FollowController from "./controllers/FollowController";
 import BookmarkController from "./controllers/BookmarkController";
 import MessageController from "./controllers/MessageController";
 import AuthenticationController from "./controllers/AuthenticationController";
-
 const cors = require('cors')
 const session = require("express-session");
+
 mongoose.connect('mongodb+srv://kimrine:kimrine123@cluster0.x1j4c.mongodb.net/a3?retryWrites=true&w=majority');
 
 const app = express();
